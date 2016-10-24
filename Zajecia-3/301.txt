@@ -1,0 +1,22 @@
+Czy dany kod jest poprawny składniowo w Pythonie?
+
+x = 2 ; y = 3 ;
+if (x > y):
+    result = x;
+else:
+    result = y;
+
+Średniki takie są dopuszczalne,
+pozwalają oddzielić wyrażenia znajdujące się w tej samej linii.
+------------------------------------------------------------------------
+
+for i in "qwerty": if ord(i) < 100: print i
+
+Tutaj kompilator zaprotestuje, uruchomienie takieko kodu,
+po wcześniejczym złamaniu linii za dwókropkiem pozwoli na kompilację.
+------------------------------------------------------------------------
+
+for i in "axby": print ord(i) if ord(i) < 100 else i
+
+Bezproblemowa kompilacja ze względu na użyte wyrażenie trójargumentowe,
+a nie jak w poprzednim przypadku instrukcję if.
