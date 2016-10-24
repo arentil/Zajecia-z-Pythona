@@ -1,0 +1,33 @@
+Co jest złego w kodzie:
+
+L = L.sort()
+
+Próba posortowania listy L bez wcześniejszego jej zdefiniowania.
+Protest kompilatora.
+------------------------------------------------------------------------
+
+x, y = 1, 2, 3
+
+Protest kompilatora, zbyt dużo argumentów dla zmiennych.
+------------------------------------------------------------------------
+
+X = 1, 2, 3 ; X[1] = 4
+
+Protest kompilatora. Dla objektów "tuple" nie można przypisywać wartości.
+------------------------------------------------------------------------
+
+X = [1, 2, 3] ; X[3] = 4
+
+Protest kompilatora. Próba wyjścia poza zakres listy.
+------------------------------------------------------------------------
+
+X = "abc" ; X.append("d")
+
+Protest kompilatora. Brak funkcji append() dla obiektów typu string
+------------------------------------------------------------------------
+
+map(pow, range(8))
+
+Odpowiedź Python2.7.12 -> pow oczekiwało dwóch argumentów, otrzymało 1
+
+Odpowiedź Python3.5.2 -> "<map object at 0x7fa1e5af06a0>"
