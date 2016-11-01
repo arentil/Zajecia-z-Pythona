@@ -1,7 +1,8 @@
 def factorial(n):
-	x = 1;
+	a = 1;
 	for i in range(int(n), 1, -1):
-		x *= i
-	return x
+		a *= i
+	return a
 
-print factorial(raw_input())
+x = input("Podaj n-ty wyraz silni do wyswietlenia: ")
+print(factorial(x))
