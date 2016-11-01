@@ -1,3 +1,5 @@
+#kompilacja z python3
+
 def factorial(n):
 	a = 1;
 	for i in range(int(n), 1, -1):
