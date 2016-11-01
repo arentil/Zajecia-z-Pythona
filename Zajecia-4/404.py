@@ -1,3 +1,5 @@
+#kompilacja z python3
+
 def fibonacci(n):
 	a = 0
 	b = 1
@@ -9,5 +11,5 @@ def fibonacci(n):
 			
 	return b
 
-x = raw_input("Podaj n-ty wyraz ciagu fibonacciego:")
-print fibonacci(int(x))
+x = input("Podaj n-ty wyraz ciagu fibonacciego:")
+print(fibonacci(int(x)))
