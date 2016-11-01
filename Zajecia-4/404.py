@@ -9,5 +9,5 @@ def fibonacci(n):
 			
 	return b
 
-x = raw_input("Podaj n ciagu fibonacciego:")
+x = raw_input("Podaj n-ty wyraz ciagu fibonacciego:")
 print fibonacci(int(x))
