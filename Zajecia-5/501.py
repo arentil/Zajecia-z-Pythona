@@ -1,4 +1,4 @@
-#kompilacja z python3
+#kompilacja z python3, plik importuje funkcje z pliku rekurencja.py
 #!/usr/bin/python
 
 import rekurencja
