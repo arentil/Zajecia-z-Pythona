@@ -1,1 +1,0 @@
-obsługa błędów?
