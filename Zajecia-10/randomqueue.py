@@ -37,9 +37,9 @@ class RandomQueue:
 
 
 '''
-    Na dowód, że ta implementacja działa, włożę do kolejli po kolei liczby od 1 do 10,
+    Na dowód, że ta implementacja działa, włożę do kolejki po kolei liczby od 1 do 10,
     następnie wypisuję na ekran kolejne usuniete elementy z kolejki. Kolejność liczb
-    wypisanych na ekran powinna być za każdym razem różna(prawdopodobieństwo wyrzucenia
+    wypisanych na ekran powinna być za każdym razem inna(prawdopodobieństwo wyrzucenia
     na ekran tych samych danych jest wysoce nieprawdopodobne, ale możliwe)
 '''
 
